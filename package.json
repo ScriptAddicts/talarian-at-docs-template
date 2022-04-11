@@ -16,7 +16,8 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "@cmfcmf/docusaurus-search-local": "^0.10.0"
   },
   "browserslist": {
     "production": [
