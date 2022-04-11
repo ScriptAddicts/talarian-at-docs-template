@@ -138,9 +138,9 @@ module.exports = {
           "routeBasePath": "/",
           "sidebarPath": require.resolve('./sidebars.js'),
           "remarkPlugins": [
-            require.resolve('./src/remark/convertYoutubeEmbeds.js'), 
-            require.resolve('./src/remark/swapContextAndPrereq.js'),
-            require.resolve('./src/remark/createAwesomeTableEmbeds.js')],
+            require('./src/remark/convertYoutubeEmbeds.js'), 
+            require('./src/remark/swapContextAndPrereq.js'),
+            require('./src/remark/createAwesomeTableEmbeds.js')],
         },
         "theme": {
           "customCss": require.resolve('./src/css/custom.css')
