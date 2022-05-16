@@ -144,7 +144,8 @@ module.exports = {
           "remarkPlugins": [
             require('./src/remark/convertYoutubeEmbeds.js'), 
             require('./src/remark/swapContextAndPrereq.js'),
-            require('./src/remark/createAwesomeTableEmbeds.js')],
+            // require('./src/remark/createAwesomeTableEmbeds.js')
+		],
         },
         "theme": {
           "customCss": require.resolve('./src/css/custom.css')
