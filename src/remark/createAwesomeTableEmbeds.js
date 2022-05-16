@@ -12,7 +12,7 @@ const plugin = (options) => {
             // Example 2:
             // <object xmlns="http://www.w3.org/1999/xhtml" data="-Mx0giR4SuKQLt065uhz" type="AwesomeTable"> </object> 
             //
-            const regexp = /<object xmlns="http:\/\/www\.w3\.org\/1999\/xhtml".*type="AwesomeTableEmbed.*"/g
+            const regexp = /<object xmlns="http:\/\/www\.w3\.org\/1999\/xhtml".*type="AwesomeTableEmbed.*"> <\/object>/g
 			const embedHeightRegexp = /height="([0-9]{3,4})(px)?"/
 			const atAppIdRegexp = /id="([^"]+)"/
             
@@ -30,7 +30,7 @@ const plugin = (options) => {
 						src="https://view-awesome-table.com/${awesomeTableAppId}/view">
 					</iframe>	
 				`
-				node.value = iframe
+				node.value = node.value.replace(match[0], iframe)
             }
         }
     });
