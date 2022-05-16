@@ -30,7 +30,7 @@ const plugin = (options) => {
 						src="https://view-awesome-table.com/${awesomeTableAppId}/view">
 					</iframe>	
 				`
-				node.value.replace(match[0], iframe)
+				node.value = iframe
             }
         }
     });
