@@ -4,6 +4,7 @@ module.exports = {
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
+  "noIndex": true,
   "favicon": "img/favicon.ico",
   "organizationName": "your-org",
   "projectName": "docusaurus",
