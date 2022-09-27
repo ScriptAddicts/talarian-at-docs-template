@@ -23,7 +23,7 @@ module.exports = {
       "items": [
         {
           href: 'https://support.awesome-table.com/hc/en-us/requests/new',
-          label: 'Support',
+          label: 'Get help',
           position: 'right',
         },
         {
