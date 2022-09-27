@@ -22,6 +22,21 @@ module.exports = {
       },
       "items": [
         {
+          href: 'https://support.awesome-table.com/hc/en-us/requests/new',
+          label: 'Support',
+          position: 'right',
+        },
+        {
+          href: 'https://awesome-table.com/pricing',
+          label: 'Pricing',
+          position: 'right',
+        }, 
+        {
+          href: 'https://workspace.google.com/marketplace/app/awesome_table/56088344336',
+          label: 'Get started',
+          position: 'right',
+        }, 
+        {
           "type": 'search',
           "position": 'right',
         }
