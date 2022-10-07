@@ -10,7 +10,7 @@ module.exports = {
   "title": "Awesome Table Documentation",
   "tagline": "The tagline of my site",
   "url": `${docusaurusUrl}`,
-  "baseUrl": "/",
+  "baseUrl": `${docusaurusBaseUrl}`,
   "onBrokenLinks": "throw",
   "noIndex": true,
   "favicon": `${docusaurusUrl}/img/favicon.ico`,
