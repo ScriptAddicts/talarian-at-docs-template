@@ -1,9 +1,9 @@
 //URL (main site URL) such as : https://docs.awesome-table.com
 //Env configs are set on Netlify
-const docusaurusUrl = process.env.URL;
+const docusaurusUrl = 'https://playful-cupcake-8ca81d.netlify.app/';
 //Base URL, by default is '/' but should be set if on a specific subpath
 //Env configs are set on Netlify
-const docusaurusBaseUrl = process.env.CURRENT_BASE_URL;
+const docusaurusBaseUrl = '/docs/';
 
 
 module.exports = {
