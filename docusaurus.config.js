@@ -1,12 +1,20 @@
+//URL (main site URL) such as : https://docs.awesome-table.com
+//Env configs are set on Netlify
+const docusaurusUrl = process.env.URL;
+//Base URL, by default is '/' but should be set if on a specific subpath
+//Env configs are set on Netlify
+const docusaurusBaseUrl = process.env.CURRENT_BASE_URL;
+
+
 module.exports = {
   "title": "Awesome Table Documentation",
   "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": `${docusaurusUrl}`,
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "noIndex": true,
-  "favicon": "img/favicon.ico",
-  "organizationName": "your-org",
+  "favicon": `${docusaurusUrl}/img/favicon.ico`,
+  "organizationName": "awesome-table",
   "projectName": "docusaurus",
   "themeConfig": {
 	"docs": {
